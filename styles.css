@@ -1,0 +1,186 @@
+
+body {
+	font-family: Helvetica;
+	font-size: 15px;
+	margin: 0;
+}
+
+h1 {
+	color: #00e6b8;
+	font-size: 50px;
+	font-weight: lighter;
+	padding: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+.scroll {
+	scroll-behavior: smooth;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.box {
+	box-shadow: 1px 1px 3px grey;
+}
+
+.small-line-height {
+	line-height: 1.5;
+}
+
+.med-line-height {
+	line-height: 2.0;
+}
+
+.row-spacer {
+	padding: 50px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px 0px 2px;
+}
+
+.subtitle {
+	font-size: 13px;
+	color: grey;
+	font-style: italic;
+}
+
+.description {
+	margin-left: 25px;
+	padding: 0px 15px 5px 0px;
+}
+
+/*Navigation bar*/
+header {
+	background-color: #00e6b8;
+	box-shadow: 1px 1px 5px grey;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+nav ul li a {
+    transition: all 0.5s ease-in-out;
+}
+
+nav ul li a.header-link:link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+
+nav ul li a.header-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.header-link:hover {
+	text-decoration: none;
+	color: white;
+    background-color: #00cca3;
+}
+
+nav ul li a.header-link:active { 
+	text-decoration: none;
+	color: white;
+}
+
+/*About*/
+#portrait {
+	width: 250px;
+	border-radius: 50%;	
+	border: 5px solid #00e6b8;
+}
+
+#portrait-spacer {
+	padding: 125px 0px 0px;
+}
+
+#about-header {
+	font-size: 55px;
+	padding: 0;
+	margin: 25px 0px 25px;
+}
+
+#about-info {
+	text-align: center;
+}
+
+/*Contact*/
+footer {
+	color: white;
+	background-color: #404040;
+	text-align: center;
+}
+
+footer h1 {
+	color: white;
+	padding: 50px 0px 0px 0px;
+	text-decoration: none;
+}
+
+
+
+a.contact-link:link {
+	font-size: 14px;
+	font-style: italic;
+	text-decoration: none;
+	color: white;
+}
+
+a.contact-link:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#contact {
+	padding: 15px 0px 15px 0px;
+}
+
+footer nav {
+	display: table;
+	margin: 0 auto;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	overflow: hidden;
+}
+
+nav ul li a.icon {
+	display: block;
+	padding: 25px 3px 40px;
+}
+
+.hover {
+	background-color: red;
+}
