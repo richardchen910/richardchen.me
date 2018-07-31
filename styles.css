@@ -13,8 +13,8 @@ h1 {
 	text-align: center;
 }
 
-.scroll {
-	scroll-behavior: smooth;
+.section {
+	margin: 0px 0px 75px;
 }
 
 .center {
@@ -23,12 +23,10 @@ h1 {
 	margin-right: auto;
 }
 
-.no-padding {
-	padding: 0;
-}
-
 .box {
+	position: relative;
 	box-shadow: 1px 1px 3px grey;
+	padding: 0;
 }
 
 .small-line-height {
@@ -61,8 +59,52 @@ h1 {
 
 .description {
 	margin-left: 25px;
-	padding: 0px 15px 5px 0px;
+	padding: 15px 15px 0px 0px;
 }
+
+.arrow {
+	width: 50px;
+	height: 50px;
+}
+
+hr {
+	margin: 0;
+}
+
+.content {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+
+.view {
+	position: relative;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.reveal-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	overflow-y: auto;
+	width: 100%;
+	height: 0;
+	transition: 0.5s ease;
+}
+
+.reveal-content p {
+	position: relative;
+	margin: 30px;
+}
+
 
 /*Navigation bar*/
 header {
@@ -82,10 +124,6 @@ header nav ul {
 
 ul li {
     float: left;
-}
-
-nav ul li a {
-    transition: all 0.5s ease-in-out;
 }
 
 nav ul li a.header-link:link {
@@ -133,6 +171,30 @@ nav ul li a.header-link:active {
 	text-align: center;
 }
 
+#photo-grid {
+	-webkit-column-count: 2;
+  	-webkit-column-gap: 35px;
+  	-moz-column-count: 2;
+  	-moz-column-gap: 35px;
+	column-count: 2;
+	column-gap: 35px;
+}
+
+#photo-grid img {
+	width: 100% !important;
+	height: auto !important;
+	display: block;
+	position: relative;
+	break-inside: avoid column;
+	margin-top: 0px;
+}
+
+.photos {
+	box-shadow: 10px 10px 15px grey;
+	padding: 0;
+	margin: 40px 0px;
+}
+
 /*Contact*/
 footer {
 	color: white;
@@ -164,6 +226,10 @@ a.contact-link:hover {
 	padding: 15px 0px 15px 0px;
 }
 
+footer {
+	box-shadow: 1px 1px 10px black;
+}
+
 footer nav {
 	display: table;
 	margin: 0 auto;
@@ -179,8 +245,4 @@ footer nav ul {
 nav ul li a.icon {
 	display: block;
 	padding: 25px 3px 40px;
-}
-
-.hover {
-	background-color: red;
 }
