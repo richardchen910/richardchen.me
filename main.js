@@ -1,6 +1,6 @@
 
 
-//smooth scroll
+// smooth scroll
 sections = document.querySelectorAll(".smooth-scroll");
 function myFunction(i) {
     sections[i].scrollIntoView({ 
@@ -9,28 +9,26 @@ function myFunction(i) {
 }
 
 
-//reveal content when user clicks on arrow
 $(document).ready(function() {
-	//reveal content when user clicks on arrow
-	$(".view").on("click", function() {
+	// reveal content when mouse hovers over content section
+	$(".content").hover(function() {
 		var box = $(this).closest(".box");
 		var reveal_content = box.find(".reveal-content");
-		var button = box.find(".view img");
-		if (reveal_content.css("height") == "0px") {
-			reveal_content.css("height", "100%");
-			button.attr("src", "images/arrow_close.jpg");
-		}
-		else {
-			reveal_content.css("height", "0");
-			button.attr("src", "images/arrow_open.jpg");
-			button.addClass("arrow");
-		}
-	});
-
-	//ensure image takes up entire box width
-	var box_width = $(".fit").closest(".box").css("width");
-		
+		reveal_content.css("height", "100%");
+	}, function() {
+		var box = $(this).closest(".box");
+		var reveal_content = box.find(".reveal-content");
+		reveal_content.css("height", "0");
+	});	
 	
+	//transform image when mouse hovers over
+	$(".photo-group").hover(function() {
+		$(this).find(".reveal-caption").fadeIn();
+		$(this).closest(".photo-group").find(".photo").css("opacity", "0.5");
+	}, function() {
+		$(this).find(".reveal-caption").fadeOut();
+		$(this).closest(".photo-group").find(".photo").css("opacity", "1");
+	});
 });
 
 

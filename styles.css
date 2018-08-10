@@ -1,6 +1,6 @@
 
 body {
-	font-family: Helvetica;
+	font-family: Open Sans;
 	font-size: 15px;
 	margin: 0;
 }
@@ -59,12 +59,16 @@ h1 {
 
 .description {
 	margin-left: 25px;
-	padding: 15px 15px 0px 0px;
+	padding: 15px 15px 3px 0px;
 }
 
-.arrow {
-	width: 50px;
-	height: 50px;
+.project-name {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	font-size: 30px;
+	color: black;
 }
 
 hr {
@@ -72,19 +76,11 @@ hr {
 }
 
 .content {
-	display: inline-block;
+	display: block;
 	overflow: hidden;
 	position: relative;
 	padding: 0;
 	margin: 0;
-}
-
-
-.view {
-	position: relative;
-	cursor: pointer;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 
@@ -173,26 +169,57 @@ nav ul li a.header-link:active {
 
 #photo-grid {
 	-webkit-column-count: 2;
-  	-webkit-column-gap: 35px;
+  	-webkit-column-gap: 50px;
   	-moz-column-count: 2;
-  	-moz-column-gap: 35px;
+  	-moz-column-gap: 50px;
 	column-count: 2;
-	column-gap: 35px;
+	column-gap: 50px;
 }
 
 #photo-grid img {
-	width: 100% !important;
-	height: auto !important;
 	display: block;
 	position: relative;
-	break-inside: avoid column;
 	margin-top: 0px;
 }
 
-.photos {
-	box-shadow: 10px 10px 15px grey;
-	padding: 0;
-	margin: 40px 0px;
+.photo-group {
+	position: relative;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}
+
+.photo {
+	margin: 50px 0px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+}
+
+.photo-group:hover {
+	transform: scale(1.04);
+}
+
+.reveal-caption {
+ 	left: 0;
+    position: absolute;
+    text-align:center;
+    top: 43%;
+    width: 100%;
+    display: none;
+    font-style: italic;
+    font-size: 1.5vw;
+    /*
+	position: absolute;
+	display: none;
+	bottom: 45%;
+	left: 15%;
+	font-style: italic;
+	font-size: 1.5vw;
+	color: black;
+	*/
 }
 
 /*Contact*/
@@ -205,10 +232,7 @@ footer {
 footer h1 {
 	color: white;
 	padding: 50px 0px 0px 0px;
-	text-decoration: none;
 }
-
-
 
 a.contact-link:link {
 	font-size: 14px;
@@ -219,11 +243,11 @@ a.contact-link:link {
 
 a.contact-link:hover {
 	text-decoration: none;
-	color: white;
+	color: #00e6b8;
 }
 
 #contact {
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px;
 }
 
 footer {
@@ -242,7 +266,22 @@ footer nav ul {
 	overflow: hidden;
 }
 
-nav ul li a.icon {
-	display: block;
-	padding: 25px 3px 40px;
+
+.fa {
+	padding: 14px 0px 0px;
+	width: 75px;
+	height: 75px;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+	margin: 10px 0px 40px;
+	border-radius: 15%;
 }
+
+.fa:hover {
+	opacity: 0.9;
+	text-decoration: none;
+	color: #00e6b8;
+}
+
+
