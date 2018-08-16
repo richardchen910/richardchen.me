@@ -38,7 +38,7 @@ h1 {
 }
 
 .row-spacer {
-	padding: 50px;
+	padding: 35px;
 }
 
 .logo {
@@ -151,6 +151,7 @@ nav ul li a.header-link:active {
 	width: 250px;
 	border-radius: 50%;	
 	border: 5px solid #00e6b8;
+	margin-bottom: 25px;
 }
 
 #portrait-spacer {
@@ -158,7 +159,7 @@ nav ul li a.header-link:active {
 }
 
 #about-header {
-	font-size: 55px;
+	font-size: 80px;
 	padding: 0;
 	margin: 25px 0px 25px;
 }

@@ -29,9 +29,11 @@
 		</header>
 
 		<!--About-->
-		<div id="portrait-spacer">
+		<div>
+			<div class="row-spacer"></div>
+			<div class="row-spacer"></div>
 			<img id="portrait" class="center smooth-scroll" src="images/richardchen.jpg">
-			<h1 id="about-header">Hi, I'm Richard!</h1>
+			<h1 id="about-header">Richard Chen</h1>
 			<div class="container">
 				<p class="med-line-height" style="font-size: 18px; text-align: center">
 					I am a 3rd year pursuing a Bachelor's Degree in <strong>Computer Science</strong> at <strong>UC Irvine</strong>.<br>
@@ -67,12 +69,13 @@
 					<div class="reveal-caption">Brooklyn Bridge — New York, NY</div>								
 				</div>
 				<div class="photo-group">
-					<img class="logo center photo rounded" src="images/DC2018-1.jpg">
-					<div class="reveal-caption">ΑΦΩ — Dance Comp 2018</div>
-				</div>
-				<div class="photo-group">
 					<img class="logo center photo rounded" src="images/Carnegie-Hall.jpg">
 					<div class="reveal-caption">Carnegie Hall — New York, NY</div>
+				</div>
+				<div class="photo-group">
+					
+					<img class="logo center photo rounded" src="images/DC2018-1.jpg">
+					<div class="reveal-caption">ΑΦΩ — Dance Comp 2018</div>
 				</div>
 				<div class="photo-group">
 					<img class="logo center photo rounded" src="images/Times-Square.jpg">
@@ -122,9 +125,7 @@
 									&emsp;<strong>STATS 67: </strong>Probability and Statistics for Computer Science<br>
 								</p>
 							</div>
-						</div>
-
-						
+						</div>	
 					</div>
 				</div>
 			</div>
@@ -189,6 +190,7 @@
 			<div class="row-spacer"></div>
 			<h1>Projects</h1>
 			<div style="width:55%" class="container">
+				<!--Abridge-->
 				<div class="row smooth-scroll">
 					<div class="col-md-12 box center">
 						<div class="content">
@@ -200,18 +202,46 @@
 								<hr>
 								<div class="description">
 									<p class="small-line-height">
-									Abridge is a web application that allows users to find the quickest and shortest route to any location
+									Abridge is a web application that allows users to find the quickest and shortest route to any location.
 									</p>
 								</div>
 							</div>
 
 							<div class="reveal-content med-line-height">
-								<p>Given the user's current location and a search query (e.g. Shell gas station, gym, supermarket), the user is given step-by-step directions to the closest location that satisfies the search. The route of the trip is shown in a map, while the user can access the street view for both start and end locations.</p>
+								<p>Given a start location and a search query (e.g. Shell gas station, gym, supermarket), the user is given step-by-step directions to the closest location that satisfies the search. The route of the trip is shown in a map, while the user can access the street view for both start and end locations.</p>
 
-								<p>I implemented both the backend and frontend infrastructure for the application. I developed the backend server on Flask and used Google's Directions API and Maps Embed API to allow the user to switch between different map modes and view details about the trip such as time, distance and directions.</p>
+								<p>I implemented both the backend and frontend infrastructure for the application. I developed the backend server on Flask and used Google's Directions API and Maps Embed API to allow the user to switch between different map modes and view details about the trip such as time, distance, and directions.</p>
 
-								<p><strong>Languages/Frameworks: </strong>Python, Flask, HTML, CSS, Javascript, jQuery<br>
+								<p><strong>Languages/Frameworks: </strong>Python, Flask, HTML, CSS, Bootstrap, Javascript, jQuery<br>
 								<strong>APIs: </strong>Google Maps Embed API, Google Maps Directions API, Google Maps Places API</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<!--Othello GUI-->
+				<div class="row smooth-scroll">
+					<div class="col-md-12 box center">
+						<div class="content">
+							<div class="init-content">
+								<div style="position: relative">
+									<img class="logo center" src="images/Othello.png">
+									<div class="project-name">Othello GUI</div>
+								</div>
+								<hr>
+								<div class="description">
+									<p class="small-line-height">
+									Othello GUI is a Python GUI that allows two players to play a customizable game of Othello.
+									</p>
+								</div>
+							</div>
+
+							<div class="reveal-content med-line-height">
+								<p>
+									I used Python's Tkinter library to construct the frontend GUI of an Othello game. Players can customize their game by choosing a board size and the color that makes the first move.
+								</p>
+
+								<p><strong>Languages/Frameworks: </strong>Python</p>
 							</div>
 						</div>
 					</div>
