@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef697a22-ec56-49bc-9eb4-137694b0efa6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/images/37774464_10212189008425732_3944362110535860224_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Carnegie-Hall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Carnegie-Hall.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/DC2018-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/DC2018-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Hudson-River-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/othello.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/richardchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/links/Richard Chen.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/links/Richard Chen.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cTqnCXuyaIakc5aeBKhCmIUbk8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cs122b/cs122b-spring20-team-24/cs122b-spring20-team-24-web" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef697a22-ec56-49bc-9eb4-137694b0efa6" name="Default Changelist" comment="" />
+      <created>1590563095838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590563095838</updated>
+      <workItem from="1590563100455" duration="21464000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1590563103389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1590563103389" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1590623683826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1590623683826" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1590616033337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1590616033337" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590623843101">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.1.1920.1040@0.0.1536.824" timestamp="1590623843101" />
+  </component>
+</project>
